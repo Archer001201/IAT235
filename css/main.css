@@ -11,7 +11,7 @@ a{
 /* --------------------------------- */
 /* header desktop*/
 header{
-    background-color: #112537;
+    background-color: #112537d1;
     height: 55px;
     width: auto;
     display: flex;
@@ -32,6 +32,7 @@ header{
     display: flex;
     align-items: center;
     padding: 0 1rem;
+    /* padding: 1rem; */
     /* border: 1px solid yellow; */
     transition: all 0.3s ease-out;
     font-size: 24px;
@@ -137,6 +138,7 @@ footer p{
 @media only screen and (max-width: 550px) {
     header{
         height: 35px;
+        position: fixed;
     }
 
     .nav-main{
@@ -155,5 +157,22 @@ footer p{
         font-size: 7px;
         margin-bottom: 1rem;
     }
+}
+
+/* --------------------------------- */
+
+.test{
+    border: 1px solid red;
+}
+
+.rect{
+    border: 1px solid blue;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.rect p{
+    border: 1px solid black;
+    padding: 1rem;
 }
 
