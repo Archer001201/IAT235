@@ -535,15 +535,15 @@ footer p{
     cursor: pointer;
     /* background-color: #ddd; */
     /* border-radius: 5px; */
-    transition: all 0.3s ease;
-    border: 1px solid red;
+    transition: all 0.3s ease-in-out;
+    /* border: 1px solid red; */
   }
 
   .carousel-button-container div{
     color: #FFF8E6;
     font-size: 30px;
     font-weight: 700;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     cursor: default;
