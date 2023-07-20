@@ -261,41 +261,41 @@ footer p{
     width: 85%;
     height: fit-content;
     display: grid;
-    grid-template-columns: 1.75fr 0.5fr 1.25fr 1fr 1.25fr 0.5fr 1.75fr;
+    grid-template-columns: 1fr 1.75fr 0.5fr 1.25fr 1fr 1.25fr 0.5fr 1.75fr 1fr;
     grid-template-rows: 1fr 0.25fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr
     1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
     grid-template-areas: 
-    ". . date date date . ."
-    ". . . . . . ."
-    "east-stage east-stage east-stage . west-stage west-stage west-stage"
-    "east11 east11 east11 time11  west11 west11 west11"
-    ". . . . . . ."
-    "east12 east12 east12 time12   west12 west12 west12"
-    ". . . . . . ."
-    "east13 east13 east13 time13  west13 west13 west13"
-    ". . . . . . ."
-    "east14 east14 east14 time14  west14 west14 west14"
-    ". . . . . . ."
-    "east15 east15 east15 time15  west15 west15 west15"
-    ". . . . . . ."
-    "east16 east16 east16 time16  west16 west16 west16"
-    ". . . . . . ."
-    "east17 east17 east17 time17  west17 west17 west17"
-    ". . . . . . ."
-    ". . main-stage main-stage  main-stage . ."
-    ". . . . . . ."
-    ". time18 main18 main18  main18 . ."
-    ". . . . . . ."
-    ". time19 main19 main19  main19 . ."
-    ". . . . . . ."
-    ". time20 main20 main20  main20 . ."
-    ". . . . . . ."
-    ". time21 main21 main21  main21 . ."
-    ". . . . . . ."
-    ". time22 main22 main22  main22 . ."
-    ". . . . . . ."
-    ". time23 main23 main23  main23 . ."
-    ". . . . . . ."
+    ". . . date date date . . ."
+    ". . . . . . . . ."
+    ". east-stage east-stage east-stage . west-stage west-stage west-stage ."
+    "time11d east11 east11 east11 time11  west11 west11 west11 ."
+    ". . . . . . . . ."
+    "time12d east12 east12 east12 time12   west12 west12 west12 ."
+    ". . . . . . . . ."
+    "time13d east13 east13 east13 time13  west13 west13 west13 ."
+    ". . . . . . . . ."
+    "time14d east14 east14 east14 time14  west14 west14 west14 ."
+    ". . . . . . . . ."
+    "time15d east15 east15 east15 time15  west15 west15 west15 ."
+    ". . . . . . . . ."
+    "time16d east16 east16 east16 time16  west16 west16 west16 ."
+    ". . . . . . . . ."
+    "time17d east17 east17 east17 time17  west17 west17 west17 ."
+    ". . . . . . . . ."
+    ". . . main-stage main-stage  main-stage . . ."
+    ". . . . . . . . ."
+    ". . time18 main18 main18  main18 . . ."
+    ". . . . . . . . ."
+    ". . time19 main19 main19  main19 . . ."
+    ". . . . . . . . ."
+    ". . time20 main20 main20  main20 . . ."
+    ". . . . . . . . ."
+    ". . time21 main21 main21  main21 . . ."
+    ". . . . . . . . ."
+    ". . time22 main22 main22  main22 . . ."
+    ". . . . . . . . ."
+    ". . time23 main23 main23  main23 . . ."
+    ". . . . . . . . ."
     ;
     
     border: 1px solid red;
@@ -461,6 +461,34 @@ footer p{
     grid-area: time17;
   }
 
+  .time11d{
+    grid-area: time11d;
+  }
+
+  .time12d{
+    grid-area: time12d;
+  }
+
+  .time13d{
+    grid-area: time13d;
+  }
+
+  .time14d{
+    grid-area: time14d;
+  }
+
+  .time15d{
+    grid-area: time15d;
+  }
+
+  .time16d{
+    grid-area: time16d;
+  }
+
+  .time17d{
+    grid-area: time17d;
+  }
+
   .time18{
     grid-area: time18;
   }
@@ -493,6 +521,10 @@ footer p{
     /* border: 1px solid red; */
     position: relative;
     top: -25%;
+  }
+
+  .transparent{
+    display: none;
   }
 
   div.schedule-east1{
