@@ -220,21 +220,6 @@ footer p{
 /* --------------------------------- */
 /* test */
 
-.test{
-    border: 1px solid red;
-}
-
-.rect{
-    border: 1px solid blue;
-    margin: 1rem;
-    padding: 1rem;
-}
-
-.rect p{
-    border: 1px solid black;
-    padding: 1rem;
-}
-
 /* carousel */
 .carousel {
     position: relative;
